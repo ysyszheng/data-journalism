@@ -1,0 +1,119 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+  background-image: url("./img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "./font/orig_fzlantingheirgbk.TTF", sans-serif;
+  font-size: 20px;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  zoom: 0.75;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 200%;
+}
+
+footer{
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #bee1ff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+  background-color:white;
+  opacity: 0.98;
+  border-bottom: #dddddd 1px solid;
+}
+
+li {
+  float: left;
+  width: 20%;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #8dcfe5;
+}
+
+.titleimg{
+  width: 100%;
+  /* border: 0; */
+  left:0;
+  right:0;
+  object-fit:cover;
+  overflow:hidden;
+}
+
+.blueinum{
+  color: #3d9be9;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 140%;
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 50%;
+  margin-left: 15%;
+}
+
+.column2 {
+  flex: 50%;
+  margin-right: 15%;
+}
+
+.outline{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
