@@ -96,6 +96,13 @@ li a:hover {
   font-size: 120%;
 }
 
+.blueinum{
+  color: #3d9be9;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 110%;
+}
+
 .row {
   display: flex;
 }
